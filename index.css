@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ccc;
+}
+
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+.tie {
+    height: 50px;
+    background: #323232;
+}
+
+section {
+    margin: 0 auto;
+    width: 600px;
+    /* height: 50px; */
+}
+
+.tie_title {
+    height: 50px;
+    line-height: 50px;
+    color: #CCC;
+    font-size: 24px;
+}
+
+#text {
+    float: right;
+    height: 26px;
+    border: 0;
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 12px;
+    padding-left: 5px;
+    outline: none;
+}
+
+
+/* 待办区 */
+
+section h2 {
+    margin: 20px 0;
+}
+
+section h2 span {
+    display: block;
+    height: 20px;
+    padding: 0 5px;
+    background: #E6E6FA;
+    border-radius: 15px;
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    text-align: center;
+    line-height: 20px;
+}
+
+section ol li {
+    background: white;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border-left: 5px solid #629A9C;
+    position: relative;
+    margin-top: 5px;
+}
+
+ol input {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+section ol p {
+    margin-left: 15px;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+section ol a {
+    display: block;
+    margin-right: 10px;
+    width: 15px;
+    height: 12px;
+    position: absolute;
+    top: 2px;
+    right: 6px;
+    background: #555;
+    border: 6px double #fff;
+    border-radius: 15px;
+}
+
+
+/* 完成区样式 */
+
+.toncount_ul li {
+    background: #E6E6E6;
+    border-left: 5px solid #B3B3B3;
+}
+
+.toncount_ul li a {
+    background: #CCCCCC;
+    border: 6px double #E6E6E6;
+}
+
+
+/* 尾部 */
+
+footer {
+    color: #555;
+    text-align: center;
+    margin-top: 25px;
+}
